@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
     const requestedURL = req.url.slice(1);
     if (htmlFiles.includes(requestedURL)) {
         if (requestedURL.endsWith('.css')) {
-            const cssFile = fs.readFileSync('./index.html', 'utf8');
+            const cssFile = fs.readFileSync('./' + requestedURL, 'utf8');
             res.setHeader('Content-Type', 'text/css');
             res.end(cssFile);
         } else {
