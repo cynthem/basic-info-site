@@ -1,0 +1,14 @@
+h1, 
+h2,
+p {
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    width: 55px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;
+}
