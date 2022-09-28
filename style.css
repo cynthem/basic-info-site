@@ -12,3 +12,9 @@ p {
     justify-content: center;
     gap: 10px;
 }
+
+.home-btn {
+    display: block;
+    width: 40px;
+    margin: auto;
+}
